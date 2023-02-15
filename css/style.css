@@ -1,0 +1,23 @@
+.html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.main {
+    margin: 20px;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px 5px 5px 0;
+}

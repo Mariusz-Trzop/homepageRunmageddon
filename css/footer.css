@@ -1,0 +1,14 @@
+.footer {
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 20px 20px 20px 0;
+    background-color: #221c15;
+    color: #ffee00;
+    font-size: 15px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.footer__lightTheme {
+    background-color: #a1a18e;
+}

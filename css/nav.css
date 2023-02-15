@@ -1,0 +1,16 @@
+.nav {
+    line-height: 2;
+    border: 4px solid #000000;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 15px 8px 15px 8px #c3c1c1;
+}
+
+.nav__list {
+    padding-left: 0px;
+}
+
+.nav__listItem {
+    list-style: none;
+    text-align: center;
+}

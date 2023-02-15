@@ -1,0 +1,14 @@
+.header {
+    border: 1px solid #000000;
+    border-radius: 20px 20px 20px 0;
+    background-color: #221c15;
+    color: #ffee00;
+    max-width: auto;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+.header__lightTheme {
+    background-color: #a1a18e;
+}

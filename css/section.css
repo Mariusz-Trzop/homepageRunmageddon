@@ -1,0 +1,32 @@
+.section {
+    margin: 10px;
+}
+
+.section__moreImportant {
+    text-align: center;
+    background-color: #221c15;
+    color: #ffee00;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.section__moreImportant--lightTheme {
+    background-color: #a1a18e;
+}
+
+.section__important {
+    text-align: center;
+}
+
+.section__creators {
+    text-align: center;
+}
+
+.section__photo {
+    display: block;
+    margin: 20px auto;
+}
+
+.section__photo--display {
+    display: none;
+}

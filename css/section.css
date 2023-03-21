@@ -2,7 +2,7 @@
     margin: 10px;
 }
 
-.section__moreImportant {
+.section__header {
     text-align: center;
     background-color: #221c15;
     color: #ffee00;
@@ -10,11 +10,11 @@
     border-radius: 10px;
 }
 
-.section__moreImportant--lightTheme {
+.section__header--lightTheme {
     background-color: #a1a18e;
 }
 
-.section__important {
+.section__subHeader {
     text-align: center;
 }
 
@@ -31,4 +31,13 @@
 
 .section__photo--display {
     display: none;
+}
+
+.section__link {
+    text-decoration: none;
+    color: #272121;
+}
+
+.section__link--important {
+    color: #dc143c;
 }

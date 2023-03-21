@@ -11,16 +11,16 @@
         const moreImportantTwoElement = document.querySelector(".js-moreImportantTwo");
         const moreImportantTreeElement = document.querySelector(".js-moreImportantTree");
         const footerElement = document.querySelector(".js-footer");
-        headerElement.classList.toggle("header__lightTheme");
-        moreImportantElement.classList.toggle("section__moreImportant--lightTheme");
-        moreImportantOneElement.classList.toggle("section__moreImportant--lightTheme");
-        moreImportantTwoElement.classList.toggle("section__moreImportant--lightTheme");
-        moreImportantTreeElement.classList.toggle("section__moreImportant--lightTheme");
-        footerElement.classList.toggle("footer__lightTheme");
-        changeDarkElement.innerText = headerElement.classList.contains("header__lightTheme") ? "ciemny" : "jasny";
+        headerElement.classList.toggle("header--lightTheme");
+        moreImportantElement.classList.toggle("section__header--lightTheme");
+        moreImportantOneElement.classList.toggle("section__header--lightTheme");
+        moreImportantTwoElement.classList.toggle("section__header--lightTheme");
+        moreImportantTreeElement.classList.toggle("section__header--lightTheme");
+        footerElement.classList.toggle("footer--lightTheme");
+        changeDarkElement.innerText = headerElement.classList.contains("header--lightTheme") ? "ciemny" : "jasny";
     };
 
-    const toogleDisplayPhoto = () => {
+    const toggleDisplayPhoto = () => {
         const photoElement = document.querySelector(".js-photo");
         const changeTextElement = document.querySelector(".js-changeText");
         photoElement.classList.toggle("section__photo--display");
@@ -31,7 +31,7 @@
         const changeThemeButtonElement = document.querySelector(".js-changeThemeButton");
         const buttonRemovePhotoElement = document.querySelector(".js-buttonRemovePhoto");
         changeThemeButtonElement.addEventListener("click", toggleBackground);
-        buttonRemovePhotoElement.addEventListener("click", toogleDisplayPhoto);
+        buttonRemovePhotoElement.addEventListener("click", toggleDisplayPhoto);
 
         welcome();
     };

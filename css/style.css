@@ -20,4 +20,5 @@ html {
     margin: 20px auto;
     padding: 10px;
     border-radius: 5px 5px 5px 0;
+    cursor: pointer;
 }

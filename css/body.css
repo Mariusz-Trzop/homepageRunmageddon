@@ -5,12 +5,3 @@
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
 }
-
-.body__link {
-    text-decoration: none;
-    color: #272121;
-}
-
-.body__link--important {
-    color: #dc143c;
-}
